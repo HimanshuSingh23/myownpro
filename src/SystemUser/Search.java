@@ -7,9 +7,7 @@ import Library.Library;
 
 public class Search {
 	
-	Library lib=new Library();
-	
-	public void showBook() {
+	public void showBook(Library lib) {
 	    List<BookItem> books = lib.getBooks();
 	    System.out.println("The books in the library are as follows:");
 	    for(BookItem book : books) {

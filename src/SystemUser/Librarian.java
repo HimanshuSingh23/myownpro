@@ -13,8 +13,8 @@ public class Librarian {
 	
 	
 	
-	Library lib=new Library();
-	public void addBook()
+	
+	public void addBook(Library lib)
 	{
 		BookItem bI=new BookItem();
 		System.out.println("Enter the BookUniqueIdNumber");
